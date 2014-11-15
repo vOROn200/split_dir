@@ -49,4 +49,4 @@ def argParser():
 if __name__ == "__main__":
     parser = argParser()
     space = parser.parse_args()
-    split_dir(space.in_path, space.out_path, space.size)
+    split_dir(space.in_path, space.out_path, space.size_part)
