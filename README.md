@@ -12,4 +12,4 @@ arguments:
 
 Пример:
 
-split_dir.exe --in_path="H:\Sid Meiers Civilization Beyond Earth" --out_path="H:\work\Civ" --size_part=1073741824
+`split_dir.exe --in_path="H:\Sid Meiers Civilization Beyond Earth" --out_path="H:\work\Civ" --size_part=1073741824`
