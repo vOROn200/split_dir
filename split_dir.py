@@ -18,7 +18,7 @@ def split_dir(in_path, out_path, size_tom):
                 current_size = 0
                 tom += 1
 
-            current_dir = os.sep.join(path[root_len+1:])
+            current_dir = os.sep.join(path[root_len:])
 
             if current_dir:
                 print(out_path + os.sep + str(tom) + os.sep + current_dir + os.sep + file)
