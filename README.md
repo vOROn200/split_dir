@@ -4,11 +4,11 @@ split_dir
 
 usage: split_dir.py [-h] -i IN_PATH -o OUT_PATH -s SIZE_PART
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -i IN_PATH, --in_path IN_PATH
-  -o OUT_PATH, --out_path OUT_PATH
-  -s SIZE_PART, --size_part SIZE_PART (в байтах)
+arguments:
+- -h, --help            show this help message and exit
+- -i IN_PATH, --in_path IN_PATH
+- -o OUT_PATH, --out_path OUT_PATH
+- -s SIZE_PART, --size_part SIZE_PART (в байтах)
 
 Пример:
 
