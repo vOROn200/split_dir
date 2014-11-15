@@ -41,15 +41,12 @@ def split_dir(in_path, out_path, size_tom):
 
 def argParser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--in_path')
-    parser.add_argument('--out_path')
-    parser.add_argument('--size', type=int)
+    parser.add_argument('-i','--in_path', required=True)
+    parser.add_argument('-o','--out_path', required=True)
+    parser.add_argument('-s','--size', type=int, required=True)
     return parser
 
 if __name__ == "__main__":
     parser = argParser()
     space = parser.parse_args()
-    if not space.in_path or not space.out_path or not space.size:
-        parser.print_help()
-    else:
-        split_dir(space.in_path, space.out_path, space.size)
+    split_dir(space.in_path, space.out_path, space.size)
