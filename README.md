@@ -2,7 +2,7 @@ split_dir
 =========
 Разбивает директорию на поддиректории в зависимости от размера:
 
-usage: split_dir.exe [-h] [--in_path IN_PATH] [--out_path OUT_PATH] [--size SIZE]
+usage: split_dir.exe [-h] --in_path IN_PATH --out_path OUT_PATH --size SIZE
 
 optional arguments:
 -h, --help show this help message and exit
