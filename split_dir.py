@@ -43,7 +43,7 @@ def argParser():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i','--in_path', required=True)
     parser.add_argument('-o','--out_path', required=True)
-    parser.add_argument('-s','--size', type=int, required=True)
+    parser.add_argument('-s','--size_part', type=int, required=True)
     return parser
 
 if __name__ == "__main__":
